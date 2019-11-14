@@ -1,0 +1,1926 @@
+/* ------------------------------------------
+
+Name: Clarion - Responsive One Page Template.
+Version: 1.0
+
+-------------------------------------------*/
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/* ------------------------------------------
+1. Navigation
+------------------------------------------ */
+.navbar {
+    background: #333;
+    padding: 25px 0;
+}
+
+.navbar .nav-item {
+    margin: 0;
+    padding: 0;
+    margin-left: 30px;
+}
+
+.navbar .nav-item .nav-link {
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    color: #fff;
+    font-weight: 500;
+    transition: all 0.5s ease-in-out;
+}
+
+.navbar .nav-item .nav-link:hover {
+    color: #F24259 !important;
+}
+
+.navbar .btn {
+    text-decoration: none;
+    background: #F24259;
+    color: #ffffff;
+    padding: 8px 30px;
+    border-radius: 5px;
+    margin-left: 40px;
+    font-size: 13px;
+    font-weight: 500;
+    transition: all 0.5s ease-in-out;
+}
+
+.navbar .btn:hover {
+    background: #ffffff;
+    color: #333;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+
+/* ------------------------------------------
+2. Slider
+------------------------------------------ */
+#slider {
+    background: url("../img/bg/slider.png") center center no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-attachment: fixed;
+    position: relative;
+}
+
+#slider .content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #ffffff;
+    margin-top: 20px;
+}
+
+#slider .content h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 70px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+
+#slider .cd-words-wrapper span{
+    color: #f24259;
+}
+
+
+#slider .content-2 {
+    margin-bottom: 40px;
+}
+
+#slider .content p {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.6;
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+}
+
+#slider .btn {
+    text-decoration: none;
+    background: #f24259;
+    color: #ffffff;
+    line-height: 25px;
+    padding: 10px 35px;
+    border-radius: 3px;
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: all 0.5s ease-in-out;
+}
+
+#slider .btn:hover {
+    background: #ffffff;
+    color: #212332;
+}
+
+#slider .btn-2 {
+    background: transparent;
+    border: 1px solid #ffffff;
+    margin-left: 15px;
+}
+
+
+/* ------------------------------------------
+3. About
+------------------------------------------ */
+#about {
+    padding: 130px 0;
+}
+
+#about .heading h2 {
+    font-size: 40px;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+
+}
+
+#about .heading h2 span {
+    color: #F24259;
+}
+
+#about .heading p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.7;
+    color: #999999;
+    margin: 20px 0 60px;
+    padding: 0;
+}
+
+#about h3 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 6px;
+    padding: 0;
+}
+
+#about p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.7;
+    color: #999999;
+    margin: 20px 0 20px;
+    padding: 0;
+}
+
+#about .about-panel h3 {
+    position: relative;
+    left: 30px;
+    font-size: 18px;
+    font-weight: 700;
+    margin: 8px 0;
+}
+
+#about h4 .icon {
+    color: #F24259;
+    margin-right: 10px;
+}
+
+#about .about-panel {
+    margin-bottom: 35px;
+}
+
+#about .about-panel .about-icon {
+    position: absolute;
+}
+
+#about .about-panel .icon {
+    font-size: 30px;
+    color: #F24259;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+#about .about-panel .line {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    content: "";
+    width: 20px;
+    height: 2px;
+    background-color: #F24259;
+}
+
+#about .about-panel .about-content {
+    padding-left: 80px;
+    position: relative;
+}
+
+#about .about-panel .about-content p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.7;
+    color: #999999;
+    margin:0;
+    padding: 0;
+}
+
+#about .about-panel .about-content:before {
+    position: absolute;
+    top: 10px;
+    left: 50px;
+    content: "";
+    width: 15px;
+    height: 2px;
+    background-color: #212332;
+}
+
+#about .btn {
+    text-decoration: none;
+    background: #f24259;
+    color: #ffffff;
+    line-height: 25px;
+    padding: 10px 35px;
+    border-radius: 3px;
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: all 0.5s ease-in-out;
+}
+
+#about .btn:hover {
+    background: #ffffff;
+    color: #f24259;
+    border: 1px solid #f24259;
+}
+
+
+/* ------------------------------------------
+4. Video Section
+------------------------------------------ */
+#video {
+    background: url("../img/bg/video.png") center center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 130px 0;
+    color: #ffffff;
+}
+
+#video h2 {
+    font-size: 40px;
+    font-weight: 800;
+    margin: 0;
+    padding: 0;
+    line-height: 50px;
+}
+
+#video h2 span {
+    color: #f24259;
+}
+
+#video img {
+    width: 100%;
+}
+
+#video p {
+    font-size: 15px;
+    font-weight: 400;
+    color: #f4feff;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding-right: 30px;
+}
+
+#video .btn {
+    text-decoration: none;
+    background: #f24259;
+    color: #ffffff;
+    line-height: 25px;
+    padding: 10px 35px;
+    border-radius: 3px;
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: all 0.5s ease-in-out;
+    margin-top: 30px;
+}
+
+#video .btn:hover {
+    background: #ffffff;
+    color: #212332;
+}
+
+.video-icon {
+    margin: 30px 0 30px 0;
+}
+#video .icon {
+    color: #f24259;
+    transition: all 0.5s ease-in-out;
+}
+#video .icon:hover {
+    color: #ffffff;
+}
+
+
+
+/* ------------------------------------------
+5. Services
+------------------------------------------ */
+#services {
+    padding: 130px 0 100px;
+}
+
+#services h2 {
+    font-size: 40px;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+
+}
+
+#services h2 span {
+    color: #F24259;
+}
+
+#services p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.7;
+    color: #999999;
+    margin: 20px 0 60px;
+    padding: 0;
+}
+
+#services .box {
+    padding: 40px 0;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+}
+
+.bg-gray {
+    background-color: #f9f9f9;
+}
+
+#services .box:hover {
+    background-color: #f9f9f9;
+    transition: all 0.5s linear;
+}
+
+#services .box .icon {
+    padding: 0;
+    margin: 0;
+    font-size: 40px;
+    color: #F24259;
+}
+
+#services .box h3 {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 15px 0 10px;
+}
+
+#services .box p {
+    margin: 0;
+}
+
+
+/* ------------------------------------------
+6. Skills
+------------------------------------------ */
+#skills {
+    padding: 130px 0;
+    background: url("../img/bg/about.png") center center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #ffffff;
+}
+
+#skills .content {
+    padding-right: 30px;
+}
+
+#skills .content span {
+    color: #F24259;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+#skills .content h2 {
+    font-size: 40px;
+    font-weight: 800;
+    margin: 0;
+    padding: 0;
+}
+
+#skills .content p {
+    font-size: 15px;
+    font-weight: 400;
+    color: #f4feff;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    margin-top: 15px;
+    margin-bottom: 40px;
+    padding-right: 30px;
+}
+
+.skill {
+        margin-bottom: 25px;
+        position: relative;
+			overflow:hidden;
+			
+    }
+    
+.skill > h5 {
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 16px;
+}
+}
+    .skill > p {
+        font-size: 18px;
+        font-weight: 700;
+        color: #1a1716;
+        margin: 0 !important;
+    }
+    .skill:before{
+        width: 100%;
+        height: 10px;
+        border-radius: 35px;
+        content: "";
+        display: block;
+        position: absolute;
+        background: #ffffff;
+        bottom: 0;
+    }
+    .skill-bar {
+        width: 100%;
+        height: 10px;
+        border-radius: 35px;
+        background:#F24259;
+        display: block;
+        position: relative;
+    }
+
+    /* SKILL 1 */
+    .skill1{
+        width: 95%;
+	}
+    .skill-bar span{
+        position: absolute;
+        top: -20px;
+        padding: 0;
+        font-size: 14px !important;
+        font-weight: 500;
+        color: #ffffff !important;
+    }
+    .skill-bar {
+        position: relative;
+	}
+
+    .skill1 .skill-count1 {
+        right: 0;
+    }
+    /* SKILL 2 */
+    .skill2{
+        width: 85%;
+    }
+
+    .skill2 .skill-count2 {
+        right: 0;
+    }
+    /* SKILL 3 */
+    .skill3{
+        width: 75%;
+    }
+    .skill3 .skill-count3 {
+        right: 0;
+    }
+
+    /* SKILL 4 */
+    .skill4{
+        width: 85%
+    }
+
+    .skill4 .skill-count4 {
+        right: 0;
+    }
+
+/* ------------------------------------------
+7. Portfolio
+------------------------------------------ */
+#portfolio {
+    padding: 130px 0 0;
+}
+
+#portfolio h2 {
+    font-size: 40px;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+
+}
+
+#portfolio h2 span {
+    color: #F24259;
+}
+
+#portfolio p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.7;
+    color: #999999;
+    margin: 20px 0 60px;
+    padding: 0;
+}
+
+#portfolio .button-group {
+    margin-bottom: 40px !important;
+    padding: 5px 10px;
+    display: inline-block;
+
+}
+
+#portfolio .button-group button {
+    border: 0;
+    background: transparent;
+    font-size: 14px;
+    font-weight: 500;
+    margin-right: 10px;
+    color: #666;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: all 0.2s ease-in-out;
+}
+
+#portfolio .button-group button:hover {
+    color: #ffffff;
+    background: #F24259;
+}
+
+#portfolio .button-group button:focus {
+    color: #ffffff;
+    background: #F24259;
+    border: 0;
+    outline: 0;
+}
+
+#portfolio .single-portfolio-item {
+    position: relative;
+    padding: 0;
+    overflow: hidden;
+}
+
+#portfolio .single-portfolio-item img {
+    -webkit-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+
+#portfolio .single-portfolio-item .overlay {
+    background: url(../img/bg/pattern-1.png) repeat;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: all 0.7s ease-in-out;
+}
+
+#portfolio .single-portfolio-item .overlay .content {
+    font-size: 20px;
+    position: absolute;
+    text-decoration: none;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #000;
+    transition: all 0.3s ease-in-out;
+
+}
+
+#portfolio .single-portfolio-item .overlay .content h3 {
+    font-size: 18px;
+    font-weight: 500;
+    color: #444444;
+    padding: 0;
+    margin: 0;
+}
+
+#portfolio .single-portfolio-item .overlay .content p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #F24259;
+    margin: 0;
+    padding: 0;
+    margin-top: 5px;
+}
+
+#portfolio .single-portfolio-item .overlay .content a {
+    color: #555555;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+#portfolio .single-portfolio-item:hover .overlay {
+    opacity: 1;
+}
+
+#portfolio .grid-item {
+    padding: 0;
+}
+#portfolio .single-portfolio-item:hover .content h3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    letter-spacing: 2px;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 10px 10px 10px 10px;
+    background: #F24259;
+    color: #ffffff !important;
+    -moz-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#portfolio .single-portfolio-item:hover img{
+    -o-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+}
+
+
+
+/* ------------------------------------------
+8. Case Study
+------------------------------------------ */
+#case-study {
+    padding: 130px 0;
+    background: #f9f9f9;
+}
+
+#case-study .heading h2 {
+    font-size: 40px;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+
+}
+#case-study .heading {
+    padding-top: 30px;
+}
+
+#case-study .heading h2 span {
+    color: #F24259;
+}
+
+#case-study .heading p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.7;
+    color: #999999;
+    margin: 20px 0 40px;
+    padding: 0;
+}
+
+#case-study img {
+    width: 100%;
+}
+
+details {
+  width: 100%;
+  min-height: 5px;
+  max-width: 700px;
+  margin: 0 auto;
+  position: relative;
+  font-size: 22px;
+  box-sizing: border-box;
+  transition: all 0.3s;
+    
+}
+
+details + details {
+  margin-top: 5px;
+}
+
+details[open] {
+  min-height: 50px;
+  background-color: #ffffff;
+}
+
+details p {
+  color: #96999d;
+  font-weight: 300;
+  padding: 0 15px 30px 15px !important;
+}
+
+summary {
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    padding: 15px 15px;
+    border: 1px solid #f9f9f9;
+    border-radius: 5px;
+    background-color: #f24259;
+}
+
+/* removed outline as for codepen only
+  don't remove focus on elements
+  it's bad accessibility
+  don't be _that_ guy
+*/
+summary:focus {
+  outline: none;
+    
+}
+
+summary::-webkit-details-marker {
+  display: none
+}
+
+summary::after {
+  padding: 20px;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  font-family: "Font Awesome 5 Free";
+  font-size: 15px;
+  font-style: normal;
+  font-variant-caps: normal;
+  font-variant-ligatures: normal;
+  font-weight: 900;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  content: "\f078";
+  transform: translateY(-50%);
+  transition: .5s ease;
+}
+
+details[open] summary::after {
+  content: "\f057";
+  font-size: 20px;
+  top: -7px;
+  transform: translateY(0);
+  transition: .5s ease;
+}
+
+details[open] summary:hover::after {
+  animation: pulse 1s ease;
+}
+
+@keyframes pulse {
+  25% {
+    transform: scale(1.1);
+  }
+  50% {
+    transform: scale(1);
+  }
+  75% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+
+/* ------------------------------------------
+9. Features
+------------------------------------------ */
+#features {
+    padding: 130px 0;
+}
+
+#features .heading h2 {
+    font-size: 40px;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+}
+
+#features .heading h2 span {
+    color: #F24259;
+}
+
+#features .heading p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.7;
+    color: #999999;
+    margin: 20px 0 60px;
+    padding: 0;
+}
+
+#features .item {
+    margin-bottom: 35px;
+    padding: 40px 30px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    border: 1px solid #f9f9f9;
+
+}
+
+#features .item .icon {
+    color: #F24259;
+    float: left;
+    font-size: 50px;
+}
+
+#features .cont {
+    margin-left: 70px;
+}
+
+#features .item:hover{
+    background-color: #ffffff;
+    border: 1px solid #f24259;
+    transition: all 0.3s ease-in-out;
+}
+
+
+#features .item .cont h3 {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+#features .item .cont p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.7;
+    color: #999999;
+    margin: 10px 0 0;
+    padding: 0;
+}
+
+
+
+
+/* ------------------------------------------
+10. Some Facts
+------------------------------------------ */
+.facts {
+    background: url("../img/bg/facts.png") center center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 130px 0;
+    color: #ffffff;
+}
+
+.facts .items .icon {
+    font-size: 30px;
+    color: #ffffff;
+}
+
+.facts .items .line {
+    width: 60px;
+    height: 1px;
+    background: #F24259;
+    margin-bottom: 10px;
+}
+
+.facts .items span {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.facts .items h4 {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+/* ------------------------------------------
+11. Team
+------------------------------------------ */
+#team {
+    padding: 130px 0;
+}
+
+#team h2 {
+    font-size: 40px;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+
+}
+
+#team h2 span {
+    color: #F24259;
+}
+
+#team p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.7;
+    color: #999999;
+    margin: 20px 0 60px;
+    padding: 0;
+}
+
+#team .single-team{
+    margin-bottom: 20px;
+}
+
+#team .single-team .team-thumb{
+    position: relative;
+    overflow: hidden;
+}
+
+#team .single-team .team-thumb img{
+    -webkit-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+    width: 100%;
+}
+
+#team .single-team:hover .team-thumb img{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+#team .single-team .team-thumb .social {
+	padding: 13px 0;
+	background-color: #f24259;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	position: absolute;
+	bottom: -10px;
+	left: 0;
+	width: 100%;
+	-webkit-transform: translateY(53px);
+	transform: translateY(53px);
+    -webkit-transition: all 0.5s linear;
+    transition: all 0.5s linear;
+}
+
+#team .single-team:hover .team-thumb .social {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+}
+
+#team .single-team .team-thumb .social li{
+    display: inline-block;
+    margin: 0px 7px;
+}
+#team .single-team .team-thumb .social li a{
+    font-size: 16px;
+    color: #fff;
+}
+
+#team .single-team .team-content h3{
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+#team .single-team .team-content span{
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+    color: #999999;
+    font-weight: 400;
+    margin-top: 100px;
+    padding-bottom: 25px;
+}
+
+#team .single-team:hover .team-content h3 {
+    color: #f24259;
+    -webkit-transition: all 0.5s linear;
+    transition: all 0.5s linear;
+}
+
+
+/* ------------------------------------------
+12. Testimonials
+------------------------------------------ */
+.testimonials {
+    background: url("../img/bg/testimonials.png") center center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 130px 0 150px;
+    color: #ffffff;
+}
+
+.testimonials .heading h2 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.testimonials .heading h2 span {
+    color: #F24259;
+}
+
+.testimonials p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.7;
+    color: #f4feff;
+    margin: 15px 0 15px;
+    padding: 0;
+}
+
+.testimonials .carousel-inner .carousel-item .team {
+    width: 100px;
+    height: 100px;
+    border: 2px solid #F24259;
+    border-radius: 100%;
+    padding: 5px;
+    margin: 20px 0 15px;
+}
+
+.testimonials .carousel-inner .carousel-item h3 {
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.testimonials .carousel-inner .carousel-item h4 {
+    font-size: 14px;
+    font-weight: 300;
+    color: #e2e1e1;
+    margin-bottom: 20px;
+}
+
+.testimonials .carousel-indicators {
+    bottom: -50px;
+}
+
+.testimonials .carousel-indicators li {
+    background-color: #b8b7b7;
+    border-radius: 30px;
+    height: 4px;
+    width: 20px;
+}
+
+.testimonials .carousel-indicators .active {
+    background-color: #F24259;
+}
+
+.testimonials .control span {
+    cursor: pointer;
+}
+
+.testimonials .quote {
+    height: 40px;
+    width: 40px;
+    background-size: 100%, 100%;
+    font-size: 50px;
+    background-image: none;
+    color: #ffffff;
+    opacity: 0.20;
+    margin-top: 50px;
+}
+
+.testimonials .icon {
+    height: 40px;
+    width: 40px;
+    background-size: 100%, 100%;
+    font-size: 30px;
+    background-image: none;
+    color: #ffffff;
+}
+
+.testimonials .social-icons i {
+    font-size: 18px;
+    padding: 0 7px;
+    color: #fff;
+}
+
+.testimonials .social-icons i:hover {
+    font-size: 18px;
+    padding: 0 7px;
+    color: #F24259;
+}
+
+
+/* ------------------------------------------
+13. Pricing
+------------------------------------------ */
+#price {
+    padding: 130px 0;
+}
+
+#price .heading h2 {
+    font-size: 40px;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+
+}
+
+#price .heading h2 span {
+    color: #F24259;
+}
+
+#price .heading p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.7;
+    color: #999999;
+    margin: 20px 0 60px;
+    padding: 0;
+}
+
+#price .box {
+    position: relative;
+    overflow: hidden;
+    padding: 40px 0;
+    border: 1px solid #f1f1f1;
+    border-radius: 10px;
+    transition: all .5s ease-in-out;
+}
+
+#price .best {
+   
+    border: 1px solid #f24259;
+}
+
+#price .box:hover {
+    border: 1px solid #f24259;
+    transition: all .5s ease-in-out;
+}
+
+#price .box .head {
+    margin-bottom: 20px;
+}
+
+#price .box .head h3 {
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 0;
+    margin: 0;
+    color: #757575;
+    margin-bottom: 5px;
+}
+
+#price .box .head h4 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 35px;
+    font-weight: 900;
+    margin: 0;
+    padding: 0;
+}
+
+#price .box .head .price-cent {
+    font-size: 50%;
+    vertical-align: super;
+}
+
+#price .box ul {
+    list-style: none;
+    padding: 0 20px;
+    margin: 0;
+}
+
+#price .box ul li {
+    font-size: 14px;
+    color: #959595;
+    padding: 10px 0;
+    border-bottom: 1px solid #f1f1f1;
+}
+
+#price .box .plan {
+    margin-top: 40px;
+}
+
+#price .box .btn {
+    text-decoration: none;
+    background: #f24259;
+    color: #ffffff;
+    line-height: 25px;
+    padding: 10px 35px;
+    border-radius: 3px;
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: all 0.5s ease-in-out;
+}
+
+#price .box .btn:hover {
+    background: #fff;
+    color: #f24259;
+    border: 1px solid #f24259;
+}
+
+#price .price-offer h6 {
+    background: #f24259;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    position: absolute;
+    width: 100%;
+    left: -80px;
+    top: 27px;
+    line-height: 35px;
+    transform: rotate(-45deg);
+}
+
+/* ------------------------------------------
+14. Call To Action
+------------------------------------------ */
+.cta {
+    background: url("../img/bg/work.png") center center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 130px 0;
+    color: #ffffff;
+}
+
+.cta .box h2 {
+    font-size: 40px;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+}
+
+.cta .box h3 {
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.cta .box .btn {
+    text-decoration: none;
+    background: #f24259;
+    color: #ffffff;
+    line-height: 25px;
+    padding: 10px 35px;
+    border-radius: 3px;
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: all 0.5s ease-in-out;
+}
+
+.cta .box .btn:hover {
+    background: #ffffff;
+    color: #555555;
+}
+
+
+/* ------------------------------------------
+15. Blog
+------------------------------------------ */
+#blog {
+    padding: 130px 0;
+}
+
+#blog .heading h2 {
+    font-size: 40px;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+}
+
+#blog .heading h2 span {
+    color: #F24259;
+}
+
+#blog .heading p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.7;
+    color: #999999;
+    margin: 20px 0 60px;
+    padding: 0;
+}
+
+#blog .box .entry-featured {
+    overflow: hidden;
+}
+
+#blog .box img{
+    -webkit-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+    width: 100%;
+}
+
+#blog .box:hover img{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: all .5s ease-in-out;
+}
+
+#blog .box:hover .line {
+    width: 100px;
+}
+
+#blog .box img {
+    width: 100%;
+}
+
+#blog .date {
+    margin-top: 10px;
+}
+#blog .date a {
+    color: #999999;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 26px;
+    text-transform: uppercase;
+    margin-bottom: 3px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+#blog .box .info {
+    padding: 10px 20px 20px 20px;
+}
+
+#blog .meta {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #999999;
+    margin-top: 20px;
+    margin-bottom: 26px;
+}
+#blog .meta a {
+    color: #f24259;
+    text-decoration: none;
+}
+
+#blog .box .info .title {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+    margin-top: 5px;
+    text-decoration: none;
+    color: #444;
+    transition: all 0.5s ease-in-out;
+}
+
+#blog .box .info .title:hover {
+    color: #F24259;
+}
+
+#blog .box .info p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.7;
+    color: #999999;
+    margin: 7px 0 0;
+}
+
+#blog .box .line {
+    background: #F24259;
+    width: 40px;
+    height: 1px;
+    transition: all 0.5s ease-in-out;
+}
+
+
+/* ------------------------------------------
+16. Clients
+------------------------------------------ */
+.clients {
+    background: url("../img/bg/facts.png") center center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 130px 0;
+}
+
+
+/* ------------------------------------------
+17. Contact
+------------------------------------------ */
+#contact {
+    padding: 130px 0;
+}
+
+#contact .heading h2 {
+    font-size: 40px;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+
+}
+
+#contact .heading h2 span {
+    color: #F24259;
+}
+
+#contact .heading p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.7;
+    color: #999999;
+    margin: 20px 0 60px;
+    padding: 0;
+}
+
+#contact .form-control {
+    padding: 25px;
+    font-size: 13px;
+    margin-bottom: 10px;
+    background: #f9f9f9;
+    border: 0;
+    border-radius: 3px;
+}
+
+#contact button.btn {
+    text-decoration: none;
+    background: #f24259;
+    color: #ffffff;
+    line-height: 25px;
+    padding: 10px 35px;
+    border-radius: 3px;
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: all 0.5s ease-in-out;
+}
+
+#contact button.btn:hover {
+    background: #fff;
+    color: #f24259;
+    border: 1px solid #f24259;
+}
+
+.btn-block {
+    width: auto;
+}
+#contact .title h3 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+#contact .title p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #999;
+    line-height: 1.6;
+    margin: 0 0 40px;
+}
+
+#contact .content-details .info {
+    margin-top: 20px;
+}
+
+#contact .content-details .info .ml {
+    margin-left: 50px;
+}
+#contact .content-details .info .icon {
+    font-size: 30px;
+    padding: 0;
+    margin: 0;
+    color: #f24259;
+    margin-right: 20px;
+    position: absolute;
+    
+}
+
+#contact .content-details .info .ml h4 {
+    font-size: 13px;
+    line-height: 1.8;
+}
+
+#contact .content-details .info .ml p {
+    font-size: 13px !important;
+    font-weight: 300;
+    color: #999999;
+    
+}
+
+
+/* ------------------------------------------
+18. Footer
+------------------------------------------ */
+.footer {
+    padding: 80px 0;
+    background: url("../img/bg/footer.png") center center no-repeat;
+    background-size: cover;
+}
+
+.footer .social-icons {
+    margin: 30px 0;
+    padding: 0;
+}
+
+.footer .social-icons a {
+    text-decoration: none;
+}
+
+.footer .social-icons i {
+    font-size: 15px;
+    line-height: 42px;
+    color: #ffffff;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 0.5px solid #ffffff;
+    border-radius: 10%;
+    margin: 0 3px;
+    transition: all 0.5s ease-in-out;
+}
+
+.footer .social-icons i:hover {
+    background: #F24259;
+    color: #ffffff;
+    border: 0.5px solid #F24259;
+}
+
+.footer p {
+    font-size: 14px;
+    font-weight: 300;
+    color: #cacaca;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* ------------------------------------------
+19. Preloader section              
+------------------------------------------ */
+
+.preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 99999;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  background: none repeat scroll 0 0 #ffffff;
+}
+
+.sk-spinner-pulse {
+  width: 60px;
+  height: 60px;
+  background-color: #f24259;
+  border-radius: 2%;
+  -webkit-animation: sk-pulseScaleOut 1s infinite ease-in-out;
+          animation: sk-pulseScaleOut 1s infinite ease-in-out; }
+
+@-webkit-keyframes sk-pulseScaleOut {
+  0% {
+    -webkit-transform: scale(0);
+            transform: scale(0); }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    opacity: 0; } }
+
+@keyframes sk-pulseScaleOut {
+  0% {
+    -webkit-transform: scale(0);
+            transform: scale(0); }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    opacity: 0; } }
+
+
+
+/* ------------------------------------------
+[20. Start Media Query]
+------------------------------------------ */
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .navbar {
+        padding: 30px;
+    }
+    
+    .navbar .nav-item {
+        margin: 30px 0 0 30px;
+    }
+
+    .navbar .nav-item .nav-link {
+        color: #555555;
+    }
+
+    .navbar-dark .navbar-toggler {
+        color: #F24259 !important;
+        border-color: #F24259;
+        background: #F24259;
+        border-radius: 5px;
+        opacity: 1;
+    }
+    
+    .navbar .btn {
+        margin-left: 30px;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+
+    #slider .content {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        color: #ffffff;
+        margin-top: 20px;
+    }
+
+    #slider h1 {
+        font-size: 40px !important;
+    }
+    
+    #skills .box-2 {
+        margin-top: 30px;
+    }
+
+    #about img {
+        margin-bottom: 30px;
+    }
+
+    #video img {
+        margin-top: 30px;
+        width: 100%;
+    }
+
+    .facts {
+        padding: 115px;
+    }
+
+    .facts .items {
+        margin: 15px 0;
+    }
+
+    #portfolio .button-group {
+        padding: 5px;
+    }
+
+    .more-details img {
+        margin-bottom: 30px;
+    }
+
+    #team {
+        padding: 130px 0 100px;
+    }
+
+    #team .box {
+        margin-bottom: 30px;
+    }
+
+    #price {
+        padding: 130px 0 100px;
+    }
+
+    #price .box {
+        margin-bottom: 30px;
+    }
+    
+    #price .price-offer h6 {
+        left: -120px;
+    }
+    
+    #blog {
+        padding: 130px 0 100px;
+    }
+
+    #blog .box {
+        margin-bottom: 30px;
+    }
+
+    .clients {
+        padding: 130px 0 100px;
+    }
+
+    .clients img {
+        margin: 15px 0;
+    }
+
+    #contact .content-details .info {
+        margin-bottom: 30px;
+    }
+    
+
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+    .navbar {
+        padding: 30px;
+    }
+
+    .navbar .nav-item {
+        margin: 30px 0 0 30px;
+    }
+
+    .navbar .nav-item .nav-link {
+        color: #555555;
+    }
+
+    .navbar-dark .navbar-toggler {
+        color: #F24259 !important;
+        border-color: #F24259;
+        background: #F24259;
+        border-radius: 5px;
+        opacity: 1;
+    }
+
+    .navbar .btn {
+        margin-left: 30px;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+
+    #slider .content {
+        position: absolute;
+        top: 55%;
+        left: 50%;
+        transform: translate(-45%,-50%);
+        color: #ffffff;
+        margin-top: 20px;
+    }
+
+    #slider .content h1 {
+        margin: 0;
+        padding: 0;
+        font-size: 60px;
+        font-weight: 800;
+        text-transform: uppercase;
+    }
+
+    #skills .box-2 {
+        margin-top: 30px;
+    }
+
+    #about img {
+        margin-bottom: 30px;
+    }
+
+    #video img {
+        margin-top: 30px;
+        width: 100%;
+    }
+
+    .facts {
+        padding: 115px;
+    }
+
+    .facts .items {
+        margin: 15px 0;
+    }
+
+    .more-details img {
+        margin-bottom: 30px;
+    }
+
+    #team {
+        padding: 130px 0 100px;
+    }
+
+    #team .box {
+        margin-bottom: 30px;
+    }
+
+    #price {
+        padding: 130px 0 100px;
+    }
+
+    #price .box {
+        margin-bottom: 30px;
+    }
+    
+    #price .price-offer h6 {
+        left: -115px;
+    }
+
+    #blog {
+        padding: 130px 0 100px;
+    }
+
+    #blog .box {
+        margin-bottom: 30px;
+    }
+
+    .clients img {
+        margin: 15px 0;
+    }
+
+    #contact .content-details .info {
+        margin-bottom: 30px;
+    }
+
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+    .navbar {
+        padding: 30px;
+    }
+
+    .navbar .nav-item {
+        margin: 30px 0 0 30px;
+    }
+
+    .navbar .nav-item .nav-link {
+        color: #555555;
+    }
+
+    .navbar-dark .navbar-toggler {
+        color: #F24259 !important;
+        border-color: #F24259;
+        background: #F24259;
+        border-radius: 5px;
+        opacity: 1;
+    }
+
+    .navbar .btn {
+        margin-left: 30px;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+
+    #slider .content {
+        position: absolute;
+        top: 55%;
+        left: 50%;
+        transform: translate(-45%,-50%);
+        color: #ffffff;
+        margin-top: 20px;
+    }
+
+    #skills .box-2 {
+        margin-top: 30px;
+    }
+
+    #about img {
+        margin-bottom: 30px;
+    }
+
+    #video img {
+        margin-top: 30px;
+    }
+
+    .facts {
+        padding: 115px;
+    }
+
+    .facts .items {
+        margin: 15px 0;
+    }
+
+    .more-details img {
+        margin-bottom: 30px;
+    }
+
+    #team {
+        padding: 130px 0 100px;
+    }
+
+    #team .box {
+        margin-bottom: 30px;
+    }
+
+    #price {
+        padding: 130px 0 100px;
+    }
+
+    #price .box {
+        margin-bottom: 30px;
+    }
+    
+    #price .price-offer h6 {
+        left: -115px;
+    }
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+    
+    #price .price-offer h6 {
+        font-size: 10px;
+        top: 15px;
+        left: -70px;
+    }
+    
+    
+}
+
+
+    
+
+
+
+/***
